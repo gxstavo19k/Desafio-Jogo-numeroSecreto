@@ -17,7 +17,6 @@ export function startGame() {
     tries = 1;
     displayTextElement('p', 'Escolha um número entre 1 e 10');
     document.getElementById('reiniciar').setAttribute('disabled', 'true');
-    console.log("Números acertados até agora:", sortedNumbers);
 }
 
 function checkGuess() {
